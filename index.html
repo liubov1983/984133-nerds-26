@@ -54,10 +54,10 @@
 		</div>
   	</header>
   	<main>
-		<h1>Сайт Нёрдс</h1>
+		<h1 class="visually-hidden">Сайт Нёрдс</h1>
   		
   		<section>
-  			<h2>Преимущества</h2>
+  			<h2 class="visually-hidden">Преимущества</h2>
   			<ul>
   				<li>
   					<h3>Веб-сайты</h3>
@@ -81,7 +81,7 @@
   		</section>
 
   		<section>
-  			<h2>О нас</h2>
+  			<h2 class="visually-hidden">О нас</h2>
   			<p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
   			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
   			<p>Выполняем заказы на разработку:</p>
@@ -113,28 +113,50 @@
   		</section>
 
   		<section>
-  			<h2>Контрактная информация</h2>
+  			<h2 class="visually-hidden">Контрактная информация</h2>
   			<p>
   				NЁRDS DESIGN STUDIO<br>
   				191186, Санкт-Петербург,<br>
   				ул. Б. Конюшенная, д. 19/8<br>
   				тел. +7 (812) 275-75-75
   			</p>
-  			<button type="button">Напишите нам</button>
-  			<img src="img/map.png" width="1440" height="417" alt="Как нас найти">
+  			<button type="button">
+  				Напишите нам
+  			</button>
+  			<img src="img/map.png" width="1440" height="417" alt="Адрес компании: Санкт-Петербург, Большая Конюшенная 19/8">
   		</section>
 
   	</main>
 
   	<footer>
   		<ul>
-  			<li><a href="">ВКонтакте</a></li>
-  			<li><a href="">Фейсбук</a></li>
-  			<li><a href="">Инстаграм</a></li>
+  			<li><a href="">Нёрдс во ВКонтакте</a></li>
+  			<li><a href="">Нёрдс на Фейсбук</a></li>
+  			<li><a href="">Нёрдс в Инстаграм</a></li>
   		</ul>
   		<p>Давайте дружить, это выгодно!</p>
   		<p>Скидка 10% для друзей из социальных сетей.</p>
   	</footer>
+
+  	<section>
+  		<h2>Напишите нам</h2>
+  		<form action="https://echo.htmlacademy.ru" method="post">
+  			<p>
+				<label for="user-name">Ваше имя:</label>
+				<input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+  			</p>
+  			<p>
+				<label for="user-email">Ваш e-mail:</label>
+				<input id="user-email" type="text" name="e-mail" placeholder="email@example.com">
+  			</p>
+  			<p>
+				<label for="user-letter">Текст письма:</label>
+				<textarea id="user-letter" placeholder="В свободной форме"></textarea>
+  			</p>
+  			<button type="submit">Отправить</button>
+  		</form>
+  		<button type="button">Закрыть</button>
+  	</section>
 
   </body>
 </html>
