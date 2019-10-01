@@ -54,14 +54,10 @@ a {
 	text-align: center;
 }
 
-.feature-list {
-	list-style: none;
-}
-
-.feature-list h3 {
-	font-size: 24px;
-	line-height: 30px;
-	font-weight: 700;
+.slider p:first-child {
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
 }
 
 .button {
@@ -74,49 +70,125 @@ a {
 	text-transform: uppercase;
 }
 
-a.button-web {
+.slider .button {
 	background-color: #fb565a;
 }
 
-a.button-web:hover,
-a.button-web:focus {
+.slider .button:hover,
+.slider .button:focus {
 	background-color: #e74246;
 }
 
-a.button-web:active {
+.slider .button:active {
 	color: rgba(255, 255, 255, 0.3);
 
 	background-color: #d7373b;
 }
 
-a.button-apps {
+.feature-list {
+	list-style: none;
+}
+
+.feature-list h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+}
+
+.feature-list .button-web {
+	background-color: #fb565a;
+}
+
+.feature-list .button-web:hover,
+.feature-list .button-web:focus {
+	background-color: #e74246;
+}
+
+.feature-list .button-web:active {
+	color: rgba(255, 255, 255, 0.3);
+
+	background-color: #d7373b;
+}
+
+.feature-list .button-apps {
 	background-color: #00ca74;
 }
 
-a.button-apps:hover,
-a.button-apps:focus {
+.feature-list .button-apps:hover,
+.feature-list .button-apps:focus {
 	background-color: #00bc6c;
 }
 
-a.button-apps:active {
+.feature-list .button-apps:active {
 	color: rgba(255, 255, 255, 0.3);
 
 	background-color: #00aa62;
 }
 
-a.button-presentation {
+.feature-list .button-presentation {
 	background-color: #efc84a;
 }
 
-a.button-presentation:hover,
-a.button-presentation:focus {
+.feature-list .button-presentation:hover,
+.feature-list .button-presentation:focus {
 	background-color: #eab534;
 }
 
-a.button-presentation:active {
+.feature-list .button-presentation:active {
 	color: rgba(255, 255, 255, 0.3);
 
 	background-color: #e5a722;
+}
+
+.lead {
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 45px;
+}
+
+.order {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.order-list {
+	list-style: none;
+}
+
+.stats caption {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.row-1 {
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 10px;
+}
+
+.row-2 {
+	line-height: 18px;
+}
+
+.partners {
+	list-style: none;
+}
+
+.contacts-block span {
+	font-weight: 700;
+	line-height: 18px;
+}
+
+.contacts .button {
+	background-color: #fb565a;
+	border: none;
+}
+
+.range-title {
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .filter fieldset {
@@ -156,14 +228,68 @@ a.button-presentation:active {
 	border: none;
 }
 
+.filter-button:hover,
+.filter-button:focus {
+	background-color: #dfdfdf;
+}
+
+.filter-button:active {
+	color: rgba(0, 0, 0, 0.3);
+
+	background-color: #d5d5d5;
+}
+
+.sort-title {
+	line-height: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.sort-list {
+	list-style: none;
+}
+
+.sort-list li {
+	color: rgba(0, 0, 0, 0.3);
+
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.sort-list a {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.sort-list a:hover,
+.sort-list a:focus {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.sort-list a:active {
+	color: #000000;
+}
+
 .product {
 	list-style: none;
+}
+
+.product-title {
+	color: #000000;
+}
+
+.product-title:hover,
+.product-title:focus {
+	color: #d7373b;
+}
+
+.product-title:active {
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .product-item h3 {
 	font-size: 18px;
 	line-height: 30px;
-	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -171,8 +297,48 @@ a.button-presentation:active {
 	line-height: 18px;
 }
 
-.product-item .button {
+.product .button {
+	color: #ffffff;
+
 	background-color: #fb565a;
+}
+
+.product .button:hover,
+.product .button:focus {
+	background-color: #e74246;
+}
+
+.product .button:active {
+	background-color: #d7373b;
+}
+
+.pagination-list {
+	list-style: none;
+}
+
+.pagination-list a {
+	line-height: 18px;
+	font-weight: 500;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: #eeeeee;
+}
+
+.pagination-list a:hover,
+.pagination-list a:focus {
+	background-color: #dfdfdf;
+}
+
+.pagination-list a:active {
+	color: rgba(0, 0, 0, 0.3);
+
+	background-color: #d5d5d5;
+}
+
+a.current-page{
+	background-color: #ffffff;
+	border: 2px solid #dbdbdb;
 }
 
 .footer-social {

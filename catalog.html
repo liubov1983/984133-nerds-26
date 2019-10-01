@@ -29,7 +29,7 @@
 
   		<section class="filters">
   			<h2 class="visually-hidden">Фильтр шаблонов</h2>
-  			<p>Стоимость:</p>
+  			<p class="range-title">Стоимость:</p>
   			<div></div>
   			<p> от 0</p>
   			<p> до 15000</p>
@@ -84,23 +84,25 @@
 
 		<section>
 			<h2 class="visually-hidden">Список шаблонов</h2>
-			<p>Сортировать:</p>
-			<p>По цене:</p>
-			<p>По типу:</p>
-			<p>По названию:</p>
+			<p class="sort-title">Сортировать:</p>
+      <ul class="sort-list">
+        <li><a href="">По цене:</a></li>
+        <li><a href="">По типу:</a></li>
+        <li><a href="">По названию:</a></li>
+      </ul>
 			<span></span>
 			<span></span>
 			<ul class="product">
 				<li class="product-item">
-					<a href="">
+					<a class="product-title" href="">
 						<h3>Sedona</h3>
 					</a>
 					<img src="img/img-sedona.jpg" width="360" height="576" alt="Шаблон Sedona">
 					<p>Информационный сайт для туристов</p>
-					<a class="button" href="">9 900 руб.</a>
+					<a class="button button-product" href="">9 900 руб.</a>
 				</li>
 				<li class="product-item">
-					<a href="">
+					<a class="product-title" href="">
 						<h3>Pink App</h3>
 					</a>
 					<img src="img/img-pink.jpg" width="360" height="576"alt="Шаблон Pink App">
@@ -108,7 +110,7 @@
 					<a class="button" href="">9 900 руб.</a>
 				</li>
 				<li class="product-item">
-					<a href="">
+					<a class="product-title" href="">
 						<h3>Barbershop</h3>
 					</a>
 					<img src="img/img-barbershop.jpg" width="360" height="576" alt="Шаблон Barbershop">
@@ -116,7 +118,7 @@
 					<a class="button" href="">9 900 руб.</a>
 				</li>
 				<li class="product-item">
-					<a href="">
+					<a class="product-title" href="">
 						<h3>MISHKA</h3>
 					</a>
 					<img src="img/img-mishka.jpg" width="360" height="576" alt="Шаблон MISHKA">
@@ -124,7 +126,7 @@
 					<a class="button" href="">9 900 руб.</a>
 				</li>
 				<li class="product-item">
-					<a href="">
+					<a class="product-title" href="">
 						<h3>A Plus</h3>
 					</a>
 					<img src="img/img-aplus.jpg" width="360" height="576" alt="Шаблон A Plus">
@@ -132,7 +134,7 @@
 					<a class="button" href="">9 900 руб.</a>
 				</li>
 				<li class="product-item">
-					<a href="">
+					<a class="product-title" href="">
 						<h3>КВАСТ</h3>
 					</a>
 					<img src="img/img-kvast.jpg" width="360" height="576" alt="Шаблон КВАСТ">
@@ -140,27 +142,27 @@
 					<a class="button" href="">9 900 руб.</a>
 				</li>
 			</ul>
-			<ul>
-				<li><a>1</a></li>
+			<ul class="pagination-list">
+				<li><a class="current-page">1</a></li>
 				<li><a href="">2</a></li>
 				<li><a href="">3</a></li>
 				<li><a href="">Следующая</a></li>
 			</ul>
 		</section>
 
-		<section>
-  			<h2 class="visually-hidden">Контрактная информация</h2>
-  			<p>
-  				NЁRDS DESIGN STUDIO<br>
-  				191186, Санкт-Петербург,<br>
-  				ул. Б. Конюшенная, д. 19/8<br>
-  				тел. +7 (812) 275-75-75
-  			</p>
-  			<button type="button">
-  				Напишите нам
-  			</button>
-  			<img src="img/map.png" width="1440" height="417" alt="Адрес компании: Санкт-Петербург, Большая Конюшенная 19/8">
-  		</section>
+		<section class="contacts">
+        <h2 class="visually-hidden">Контрактная информация</h2>
+        <p class="contacts-block">
+          <span>NЁRDS DESIGN STUDIO</span><br>
+          191186, Санкт-Петербург,<br>
+          ул. Б. Конюшенная, д. 19/8<br>
+          тел. +7 (812) 275-75-75
+        </p>
+        <button class="button" type="button">
+          Напишите нам
+        </button>
+        <img src="img/map.png" width="1440" height="417" alt="Адрес компании: Санкт-Петербург, Большая Конюшенная 19/8">
+      </section>
   	</main>
 
   	<footer class="main-footer">
