@@ -36,6 +36,7 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 50px;
+	margin-bottom: 50px;
 
 	font-size: 16px;
 	line-height: 30px;
@@ -79,12 +80,17 @@ a {
 .page-title {
 	margin: 0 auto;
 	padding: 0;
-	margin-top: 137px;
+	margin-top: 87px;
 	margin-bottom: 117px;
 
 	font-size: 55px;
 	font-weight: 500;
 	line-height: 55px;
+}
+
+.slider {
+	display: flex;
+	justify-content: space-between;
 }
 
 .slider p:first-child {
@@ -182,6 +188,14 @@ a {
 	background-color: #e5a722;
 }
 
+.about-column {
+	display: flex;
+}
+
+.about-description {
+	width: 660px;
+}
+
 .lead {
 	font-size: 45px;
 	font-weight: 500;
@@ -194,7 +208,15 @@ a {
 }
 
 .order-list {
+	margin: 0;
+	padding: 0;
+
 	list-style: none;
+}
+
+.about-stats {
+	width: 360px;
+	margin-left: auto;
 }
 
 .stats caption {
@@ -292,12 +314,17 @@ a {
 
 .sort {
 	display: flex;
+	justify-content: space-between;
 }
 
 .sort-title {
 	line-height: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.sort-controls {
+	width: 360px;
 }
 
 .sort-list {
