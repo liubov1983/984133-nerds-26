@@ -16,13 +16,35 @@ a {
 }
 
 .main-header {
+	width: 100%;
+	margin-bottom: 80px;
 	background-color: #eeeeee;
 }
 
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.inner-page {
+	display: flex;
+	flex-direction: column;
+}
+
 .main-navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+
 	font-size: 16px;
 	line-height: 30px;
 	text-transform: uppercase;
+}
+
+.header-logo {
+	width: 165px;
+	height: 65px;
 }
 
 .site-navigation,
@@ -47,11 +69,22 @@ a {
 	color: rgba(0, 0, 0, 0.3);
 }
 
+.site-navigation {
+	display: flex;
+	justify-content: space-between;
+
+	width: 440px;
+}
+
 .page-title {
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 137px;
+	margin-bottom: 117px;
+
 	font-size: 55px;
 	font-weight: 500;
 	line-height: 55px;
-	text-align: center;
 }
 
 .slider p:first-child {
@@ -86,7 +119,16 @@ a {
 }
 
 .feature-list {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
 	list-style: none;
+}
+
+.feature-list li {
+	width: 300px;
+	margin-right: 100px;
+	
 }
 
 .feature-list h3 {
@@ -191,6 +233,15 @@ a {
 	text-transform: uppercase;
 }
 
+.catalog-columns {
+	display: flex;
+}
+
+.filters {
+	width: 260px;
+	margin-right: 140px;
+}
+
 .filter fieldset {
 	border: none;
 }
@@ -239,6 +290,10 @@ a {
 	background-color: #d5d5d5;
 }
 
+.sort {
+	display: flex;
+}
+
 .sort-title {
 	line-height: 18px;
 	font-weight: 700;
@@ -246,6 +301,7 @@ a {
 }
 
 .sort-list {
+	display: flex;
 	list-style: none;
 }
 
@@ -271,7 +327,16 @@ a {
 }
 
 .product {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0;
 	list-style: none;
+}
+
+.product-item {
+	width: 360px;
+	margin-bottom: 33px;
 }
 
 .product-title {
@@ -313,7 +378,14 @@ a {
 }
 
 .pagination-list {
+	display: flex;
+	padding: 0;
+
 	list-style: none;
+}
+
+.pagination-list li {
+	margin-right: 11px;
 }
 
 .pagination-list a {
@@ -341,17 +413,24 @@ a.current-page{
 	border: 2px solid #dbdbdb;
 }
 
+.main-footer .container {
+	display: flex;
+	flex-direction: row;
+}
+
 .footer-social {
+	margin-right: 140px;
+	padding: 0;
 	list-style: none;
 }
 
-.main-footer p {
+.discount p {
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: 700;
 }
 
-.main-footer p:nth-child(3) {
+.discount p:nth-child(2) {
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 400;
