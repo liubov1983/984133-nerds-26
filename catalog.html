@@ -57,7 +57,7 @@
       					<legend>Сетка:</legend>
       					<ul>
       						<li class="filter-option">
-    							  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="display" value="adaptive" id="filter-adaptive" disabled>
+    							  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="display" value="adaptive" id="filter-adaptive" checked>
       							<label for="filter-adaptive">Адаптивная</label>
       						</li>
       						<li class="filter-option">
@@ -111,8 +111,12 @@
                   <li><a href="#">По типу:</a></li>
                   <li><a href="#">По названию:</a></li>
                 </ul>
-          			<span></span>
-          			<span></span>
+          			<span class="icon-down">
+                  <img src="img/icon-down-dir.svg" width="11" height="10">  
+                </span>
+          			<span class="icon-up">
+                  <img src="img/icon-up-dir.svg" width="11" height="10">   
+                </span>
               </div>
             </div>
       			<ul class="product">
@@ -179,29 +183,29 @@
       			</ul>
       			<ul class="pagination-list">
       				<li><a class="current-page">1</a></li>
-      				<li><a href="">2</a></li>
-      				<li><a href="">3</a></li>
-      				<li><a href="">Следующая</a></li>
+      				<li><a href="#">2</a></li>
+      				<li><a href="#">3</a></li>
+      				<li><a class="next-page" href="#">Следующая</a></li>
       			</ul>
       		</section>
         </div>  
      </div> 
 
 		<section class="contacts">
-        <div class="container">
-          <h2 class="visually-hidden">Контактная информация</h2>
-          <p class="contacts-block">
-            <span>NЁRDS DESIGN STUDIO</span><br>
-            191186, Санкт-Петербург,<br>
-            ул. Б. Конюшенная, д. 19/8<br>
-            тел. +7 (812) 275-75-75
-          </p>
-          <button class="button" type="button">
-            Напишите нам
-          </button>
-          <img src="img/map.png" width="1440" height="417" alt="Адрес компании: Санкт-Петербург, Большая Конюшенная 19/8">
-        </div>
-      </section>
+    <div class="container">
+      <h2 class="visually-hidden">Контактная информация</h2>
+      <div class="contacts-block">
+        <span>NЁRDS DESIGN STUDIO</span><br>
+        <p>191186, Санкт-Петербург,<br>
+        ул. Б. Конюшенная, д. 19/8</p>
+        <p>тел. +7 (812) 275-75-75</p>
+        <button class="button" type="button">
+          Напишите нам
+        </button>
+      </div>
+      <img src="img/map.png" width="1200" height="425" alt="Адрес компании: Санкт-Петербург, Большая Конюшенная 19/8">
+    </div>
+    </section>
   	</main>
 
   	<footer class="main-footer">
