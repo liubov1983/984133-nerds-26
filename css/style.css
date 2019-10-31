@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	min-width: 1200px;
-	font-family: 'Roboto', 'Arial', sans-serif;
+	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
@@ -512,8 +512,88 @@ img {
 	background-color: #eeeeee;
 }
 
+.partners li:nth-child(2)::after {
+	top: 10px;
+}
+
+.partners li:nth-child(3)::after {
+	top: -5px;
+}
+
 .partners li:last-child::after {
 	display: none;
+}
+
+.partner-link {
+	display: block;
+}
+
+.academy-link {
+	width: 199px;
+	height: 68px;
+	background-image: url(../img/logo-1.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.barbershop-link {
+	width: 209px;
+	height: 90px;
+	background-image: url(../img/logo-2.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.pink-link {
+	width: 185px;
+	height: 52px;
+	background-image: url(../img/logo-3.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.mishka-link {
+	width: 173px;
+	height: 84px;
+	background-image: url(../img/logo-4.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.academy-link:hover,
+.academy-link:focus {
+	background-image: url(../img/logo-1-hover.png);
+}
+
+.barbershop-link:hover,
+.barbershop-link:focus {
+	background-image: url(../img/logo-2-hover.png);
+}
+
+.pink-link:hover,
+.pink-link:focus {
+	background-image: url(../img/logo-3-hover.png);
+}
+
+.mishka-link:hover,
+.mishka-link:focus {
+	background-image: url(../img/logo-4-hover.png);
+}
+
+.academy-link:active {
+	background-image: url(../img/logo-1-active.png);
+}
+
+.barbershop-link:active {
+	background-image: url(../img/logo-2-active.png);
+}
+
+.pink-link:active {
+	background-image: url(../img/logo-3-active.png);
+}
+
+.mishka-link:active {
+	background-image: url(../img/logo-4-active.png);
 }
 
 .contacts {
@@ -523,22 +603,21 @@ img {
 }
 
 .contacts-block {
-	position: relative;
 	width: 220px;
 	height: 210px;
 	margin-top: 55px;
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 45px;
+	padding-bottom: 50px;
 	background-color: #ffffff;
 }
 
 .contacts-block::after {
 	content: "";
 	position: absolute;
-	top: 45px;
-	left: 685px;
+	top: 150px;
+	left: 765px;
 	width: 231px;
 	height: 190px;
 	background-image: url(../img/map-marker.png);
@@ -559,11 +638,9 @@ img {
 	line-height: 18px;
 }
 
-.contacts .button {
+.contacts-block .button {
 	width: 100%;
 	margin-top: 45px;
-	background-color: #fb565a;
-	border: none;
 }
 
 .contacts img {
@@ -725,8 +802,8 @@ img {
 	position: absolute;
 	top: -3px;
 	left: -37px;
-	width: 25px;
-	height: 25px;
+	width: 27px;
+	height: 27px;
 	background-image: url(../img/radio-on.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -781,7 +858,6 @@ img {
 .filter-input-checkbox:not(:disabled):focus + label::before {
 	opacity: 1;
 }
-
 
 .filter-button {
 	width: 260px;
@@ -873,6 +949,7 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	width: 760px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
