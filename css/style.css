@@ -599,30 +599,24 @@ img {
 .contacts {
 	position: relative;
 	padding-top: 80px;
-	padding-bottom: 55px;
+}
+
+.contacts .container {
+	position: relative;
 }
 
 .contacts-block {
+	position: absolute;
+	top: 55px;
+	left: 0;
+	z-index: 1;
 	width: 220px;
 	height: 210px;
-	margin-top: 55px;
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
 	background-color: #ffffff;
-}
-
-.contacts-block::after {
-	content: "";
-	position: absolute;
-	top: 150px;
-	left: 765px;
-	width: 231px;
-	height: 190px;
-	background-image: url(../img/map-marker.png);
-	background-repeat: no-repeat;
-	background-position: 0 0;
 }
 
 .contacts-block span {
@@ -643,11 +637,27 @@ img {
 	margin-top: 45px;
 }
 
-.contacts img {
+.static-map {
 	position: absolute;
 	top: 80px;
 	left: 0;
+	z-index: -2;
+}
+
+.map-marker {
+	position: absolute;
+	top: 185px;
+	left: 845px;
+	width: 231px;
+	height: 190px;
 	z-index: -1;
+}
+
+.contacts iframe {
+	position: relative;
+	top: 0;
+	left: 0;
+	border: none;
 }
 
 .catalog-columns {
@@ -1219,6 +1229,7 @@ a.next-page {
 	animation: shake 0.6s;
 }
 
+
 .modal h2 {
 	margin: 0;
 	margin-bottom: 14px;
@@ -1273,6 +1284,10 @@ a.next-page {
 .form-item textarea:focus {
 	border-color: #000000;
 	outline: none;
+}
+
+.modal-error input {
+	border-color: #e74246;
 }
 
 .form-button {
